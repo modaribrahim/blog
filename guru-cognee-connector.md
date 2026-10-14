@@ -19,33 +19,35 @@ A customer asks: "Can I get a refund after 30 days?"
 
 Same bot, same data, but yeah, it just knows which answers to trust.
 
-## I tested it
+## Ok but does it actually work?
 
-I didn't want to just claim it, so I ran an experiment.
+Honestly I wasn't sure. So I tested it.
 
-- 20 sample Guru cards for a made-up company. 8 topics have an old card (wrong, needs verification) and a new one (right, trusted). 4 topics only have an old card.
-- Loaded them into Cognee twice through the connector: once with the trust labels dropped, once with them kept.
-- Asked the same 12 questions, 3 times each. Same bot, same prompt. Model: DeepSeek V4.1 Flash.
+I made 20 fake Guru cards for a made-up company. Some topics have an old card (wrong, needs verification) and a newer one (right, trusted). Some only have the old card, nothing newer.
+
+Then I loaded them into Cognee twice. Once with the trust labels thrown away, once with them kept. Same 12 questions, asked 3 times each. Same bot, same prompt. I used DeepSeek V4.1 Flash because it's cheap.
 
 ![results](accuracy.png)
 
-When old and new cards disagree, the bot mostly gets it right anyway (92% → 100%).
+First part surprised me a bit. When an old and a new card disagree, the bot picks the right one most of the time anyway. 92% without labels, 100% with. Nice, but not huge.
 
-The big one: when **only an old card exists**, the bot without labels warned **0 times out of 12**. It just repeated old info as fact. With labels: **12 out of 12**.
+The second part is the real thing. When **only the old card exists**, the bot without labels warned the user **0 times out of 12**. Zero. It just said the old stuff like it's fact. With labels it warned **12 out of 12**.
 
-Real answers to "Do nonprofits get a discount?":
+Here's a real answer for "Do nonprofits get a discount?":
 
-> **Labels dropped:** Yes — registered nonprofits get 50% off any plan.
+> **Without labels:** Yes — registered nonprofits get 50% off any plan.
 
-> **Labels kept:** Yes — registered nonprofits get 50% off any plan. Note that this entry is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so the discount may be outdated.
+> **With labels:** Yes — registered nonprofits get 50% off any plan. Note that this entry is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so the discount may be outdated.
 
-Bonus: I asked "list every card that needs verification". It found 11 of the 12. That's a free cleanup list for the team.
+Same info. But the second one doesn't let a customer walk away thinking it's 100% true.
 
-Syncing again is cheap too, because only changed cards get processed:
+Also tried asking "list every card that needs verification". It found 11 out of 12. So you get a cleanup to-do list for free, which is kinda cool.
+
+And syncing again is fast, because only changed cards get processed again:
 
 ![re-sync](resync.png)
 
-The whole experiment cost about $0.30 in API calls. Code and raw results: [guru-experiment](https://github.com/modaribrahim/blog/tree/main/guru-experiment).
+The whole thing cost me about $0.30. Code and raw results are [here](https://github.com/modaribrahim/blog/tree/main/guru-experiment) if you want to check.
 
 ## What the connector does
 
