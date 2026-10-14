@@ -1,0 +1,666 @@
+{
+  "no_labels": {
+    "rows": [
+      {
+        "topic": "refund",
+        "kind": "conflict",
+        "run": 0,
+        "question": "How many days do customers have to ask for a refund?",
+        "answer": "Customers can request a full refund within 30 days of purchase, though since January 2026 the refund window is only 14 days.",
+        "current": false,
+        "warned": false
+      },
+      {
+        "topic": "refund",
+        "kind": "conflict",
+        "run": 1,
+        "question": "How many days do customers have to ask for a refund?",
+        "answer": "Since January 2026, customers have **14 days** from the date of purchase to request a refund \u2014 the previous 30-day window no longer applies.",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "refund",
+        "kind": "conflict",
+        "run": 2,
+        "question": "How many days do customers have to ask for a refund?",
+        "answer": "Since January 2026, customers have **14 days** from the date of purchase to request a refund \u2014 the previous 30-day window no longer applies.",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "price",
+        "kind": "conflict",
+        "run": 0,
+        "question": "How much does the Pro plan cost per month?",
+        "answer": "The Pro plan costs **$39 per month** for all new and existing customers \u2014 an earlier $29/month figure has since been superseded by the pricing update.",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "price",
+        "kind": "conflict",
+        "run": 1,
+        "question": "How much does the Pro plan cost per month?",
+        "answer": "The Pro plan now costs **$39 per month**, which applies to all new and existing customers (this updates the earlier $29 per month price).",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "price",
+        "kind": "conflict",
+        "run": 2,
+        "question": "How much does the Pro plan cost per month?",
+        "answer": "The Pro plan costs **$39 per month** \u2014 this updated price applies to all new and existing customers, replacing the earlier $29 per month rate.",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "hours",
+        "kind": "conflict",
+        "run": 0,
+        "question": "When is the support team available?",
+        "answer": "Support is currently available Monday to Friday, 8am to 8pm UTC \u2014 this comes from the \"Support hours (current)\" entry, which supersedes the older note that said the team was available 24/7.",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "hours",
+        "kind": "conflict",
+        "run": 1,
+        "question": "When is the support team available?",
+        "answer": "Support is available Monday to Friday, 8am to 8pm UTC (per the \"Support hours (current)\" document). Note that an older entry says the team is available 24/7 \u2014 that information appears to be outdated and superseded.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "hours",
+        "kind": "conflict",
+        "run": 2,
+        "question": "When is the support team available?",
+        "answer": "Support is available Monday to Friday, 8am to 8pm UTC (per the \"Support hours (current)\" entry). An older note says the team is available 24/7, but that information is outdated and superseded.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "reset",
+        "kind": "conflict",
+        "run": 0,
+        "question": "How long is a password reset link valid?",
+        "answer": "Password reset links are now valid for **1 hour** (per the \"Password reset security change\" support article). An earlier article said 24 hours, but that has been superseded by the security change.",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "reset",
+        "kind": "conflict",
+        "run": 1,
+        "question": "How long is a password reset link valid?",
+        "answer": "Password reset links are valid for **1 hour** \u2014 that's per the current \"Password reset security change\" article (the earlier 24-hour article is superseded).",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "reset",
+        "kind": "conflict",
+        "run": 2,
+        "question": "How long is a password reset link valid?",
+        "answer": "Password reset links are valid for **1 hour** \u2014 per the current \"Password reset security change\" article. The earlier 24-hour article is superseded.",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "upload",
+        "kind": "conflict",
+        "run": 0,
+        "question": "What is the maximum file upload size?",
+        "answer": "The maximum file upload size is **5 GB per file** (per the \"Upload limits 2026\" article). An earlier \"Upload limits\" article said 2 GB per file, but that figure has been superseded.",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "upload",
+        "kind": "conflict",
+        "run": 1,
+        "question": "What is the maximum file upload size?",
+        "answer": "The maximum file upload size is **5 GB per file**, per the \"Upload limits 2026\" article (the earlier 2 GB limit is superseded).",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "upload",
+        "kind": "conflict",
+        "run": 2,
+        "question": "What is the maximum file upload size?",
+        "answer": "The maximum file upload size is **5 GB per file** (per \"Upload limits 2026\"; the earlier 2 GB limit is superseded).",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "retention",
+        "kind": "conflict",
+        "run": 0,
+        "question": "How long do we keep data after a customer cancels?",
+        "answer": "According to the Data retention policy, data is deleted 30 days after cancellation. However, another entry says data is kept for 90 days, so the exact period may need verification.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "retention",
+        "kind": "conflict",
+        "run": 1,
+        "question": "How long do we keep data after a customer cancels?",
+        "answer": "The knowledge base conflicts on this: the \"Data retention policy\" entry says data is deleted 30 days after cancellation, while a separate \"Data retention\" entry says data is kept for 90 days. I'd recommend verifying this with the team, since neither entry is clearly marked as current.",
+        "current": false,
+        "warned": true
+      },
+      {
+        "topic": "retention",
+        "kind": "conflict",
+        "run": 2,
+        "question": "How long do we keep data after a customer cancels?",
+        "answer": "Data is deleted **30 days** after a customer cancels, per the \"Data retention policy\" entry. Note that a separate \"Data retention\" entry says 90 days, so this may be worth confirming with the team.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "trial",
+        "kind": "conflict",
+        "run": 0,
+        "question": "How long is the free trial?",
+        "answer": "The free trial lasts **21 days**, per the \"Free trial length\" article in the Support collection. Note that a separate \"Free trial\" entry says new accounts get a 7-day trial, so it may be worth confirming which applies.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "trial",
+        "kind": "conflict",
+        "run": 1,
+        "question": "How long is the free trial?",
+        "answer": "The free trial lasts **21 days**, per the \"Free trial length\" article in the Support collection. (A separate \"Free trial\" entry mentions a 7-day trial for new accounts, so that's worth confirming if it applies to your case.)",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "trial",
+        "kind": "conflict",
+        "run": 2,
+        "question": "How long is the free trial?",
+        "answer": "The free trial lasts **21 days**, per the \"Free trial length\" article in the Support collection. (A separate \"Free trial\" entry mentions a 7-day trial for new accounts, if that applies to your case.)",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "ratelimit",
+        "kind": "conflict",
+        "run": 0,
+        "question": "What is the API rate limit?",
+        "answer": "The API rate limit is **600 requests per minute per key**, per the \"API rate limits v2\" article. (An earlier \"API rate limits\" entry said 100 requests per minute, which is superseded.)",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "ratelimit",
+        "kind": "conflict",
+        "run": 1,
+        "question": "What is the API rate limit?",
+        "answer": "The API rate limit is **600 requests per minute per key**, per the \"API rate limits v2\" article. (An earlier \"API rate limits\" entry said 100 requests per minute, which is superseded.)",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "ratelimit",
+        "kind": "conflict",
+        "run": 2,
+        "question": "What is the API rate limit?",
+        "answer": "The API rate limit is **600 requests per minute per key**, per the \"API rate limits v2\" article (the earlier \"API rate limits\" entry stating 100 requests per minute is superseded).",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "sso",
+        "kind": "stale_only",
+        "run": 0,
+        "question": "Which SSO methods do we support?",
+        "answer": "We support **SAML only** for single sign-on, per the \"SSO setup\" article in the Support collection's Security folder.",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "sso",
+        "kind": "stale_only",
+        "run": 1,
+        "question": "Which SSO methods do we support?",
+        "answer": "We support **SAML only** for single sign-on, per the \"SSO setup\" article in the Support collection's Security folder.",
+        "current": false,
+        "warned": false
+      },
+      {
+        "topic": "sso",
+        "kind": "stale_only",
+        "run": 2,
+        "question": "Which SSO methods do we support?",
+        "answer": "We support **SAML only** for single sign-on, per the \"SSO setup\" article in the Support collection's Security folder.",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "phone",
+        "kind": "stale_only",
+        "run": 0,
+        "question": "What is the support phone number?",
+        "answer": "The support phone number is **+1 555 0100** (per the \"Phone support\" document in the Support collection).",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "phone",
+        "kind": "stale_only",
+        "run": 1,
+        "question": "What is the support phone number?",
+        "answer": "The support phone number is **+1 555 0100** (per the \"Phone support\" document in the Support collection).",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "phone",
+        "kind": "stale_only",
+        "run": 2,
+        "question": "What is the support phone number?",
+        "answer": "The support phone number is **+1 555 0100** (per the \"Phone support\" document in the Support collection).",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "nonprofit",
+        "kind": "stale_only",
+        "run": 0,
+        "question": "Do nonprofits get a discount?",
+        "answer": "Yes \u2014 registered nonprofits get **50% off any plan**, per the \"Nonprofit discount\" article in the Support collection's Billing folder.",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "nonprofit",
+        "kind": "stale_only",
+        "run": 1,
+        "question": "Do nonprofits get a discount?",
+        "answer": "Yes \u2014 registered nonprofits get **50% off any plan**, per the \"Nonprofit discount\" article in the Support collection's Billing folder.",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "nonprofit",
+        "kind": "stale_only",
+        "run": 2,
+        "question": "Do nonprofits get a discount?",
+        "answer": "Yes \u2014 registered nonprofits get **50% off any plan** (per the \"Nonprofit discount\" article in the Support collection's Billing folder).",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "region",
+        "kind": "stale_only",
+        "run": 0,
+        "question": "Where is EU customer data stored?",
+        "answer": "EU customer data is stored in **Frankfurt**, per the \"EU data region\" article in the Support collection's Security folder.",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "region",
+        "kind": "stale_only",
+        "run": 1,
+        "question": "Where is EU customer data stored?",
+        "answer": "EU customer data is stored in **Frankfurt**, per the \"EU data region\" article in the Support collection's Security folder.",
+        "current": true,
+        "warned": false
+      },
+      {
+        "topic": "region",
+        "kind": "stale_only",
+        "run": 2,
+        "question": "Where is EU customer data stored?",
+        "answer": "EU customer data is stored in **Frankfurt**, per the \"EU data region\" article in the Support collection's Security folder.",
+        "current": true,
+        "warned": false
+      }
+    ],
+    "first_sync_seconds": 196.7
+  },
+  "labels": {
+    "rows": [
+      {
+        "topic": "refund",
+        "kind": "conflict",
+        "run": 0,
+        "question": "How many days do customers have to ask for a refund?",
+        "answer": "Under the current refund policy (verified TRUSTED, dated September 2026), customers have **14 days** from purchase to request a refund. Note that an older policy stating **30 days** exists but is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "refund",
+        "kind": "conflict",
+        "run": 1,
+        "question": "How many days do customers have to ask for a refund?",
+        "answer": "Customers have **14 days** from purchase to request a refund, per the current refund policy dated September 2026 (verified TRUSTED). Note that an older policy stating **30 days** exists but is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "refund",
+        "kind": "conflict",
+        "run": 2,
+        "question": "How many days do customers have to ask for a refund?",
+        "answer": "Customers have **14 days** from purchase to request a refund, per the current refund policy (verified TRUSTED, last verified September 2026). An older policy stating 30 days still appears in the knowledge base, but it's marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "price",
+        "kind": "conflict",
+        "run": 0,
+        "question": "How much does the Pro plan cost per month?",
+        "answer": "The Pro plan costs **$39 per month** for all new and existing customers, per the current pricing update (TRUSTED, last verified September 2026).\n\nNote: an older entry listing $29 per month still exists in the knowledge base, but it's marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "price",
+        "kind": "conflict",
+        "run": 1,
+        "question": "How much does the Pro plan cost per month?",
+        "answer": "The Pro plan costs **$39 per month**, per the trusted pricing update (last verified September 2026).\n\nAn older entry listing $29 per month appears in the knowledge base, but it's flagged NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "price",
+        "kind": "conflict",
+        "run": 2,
+        "question": "How much does the Pro plan cost per month?",
+        "answer": "The Pro plan costs **$39 per month** for all new and existing customers, per the trusted pricing update (last verified September 2026). An older entry listing $29 per month still appears in the knowledge base, but it's marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "hours",
+        "kind": "conflict",
+        "run": 0,
+        "question": "When is the support team available?",
+        "answer": "Support is available **Monday to Friday, 8am to 8pm UTC**, per the current support hours document (TRUSTED, last verified September 1, 2026).\n\nNote: an older entry claiming 24/7 availability still appears in the knowledge base, but it's marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "hours",
+        "kind": "conflict",
+        "run": 1,
+        "question": "When is the support team available?",
+        "answer": "Support is available **Monday to Friday, 8am to 8pm UTC**, per the current support hours document (TRUSTED, last verified September 1, 2026). An older entry claiming 24/7 availability still appears in the knowledge base, but it's marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "hours",
+        "kind": "conflict",
+        "run": 2,
+        "question": "When is the support team available?",
+        "answer": "Support is available **Monday to Friday, 8am to 8pm UTC**, per the current support hours document (TRUSTED, last verified September 1, 2026). An older entry stating 24/7 availability is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "reset",
+        "kind": "conflict",
+        "run": 0,
+        "question": "How long is a password reset link valid?",
+        "answer": "Password reset links now expire **1 hour** after they're issued, per the trusted security change (last verified September 1, 2026). Note that an older entry stating 24 hours still appears in the knowledge base, but it's marked NEEDS_VERIFICATION (last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "reset",
+        "kind": "conflict",
+        "run": 1,
+        "question": "How long is a password reset link valid?",
+        "answer": "Password reset links expire **1 hour** after they're issued, per the current security change (TRUSTED, last verified September 1, 2026). Note that an older entry stating 24 hours still appears in the knowledge base, but it's marked NEEDS_VERIFICATION (UPDATE, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "reset",
+        "kind": "conflict",
+        "run": 2,
+        "question": "How long is a password reset link valid?",
+        "answer": "Password reset links expire **1 hour** after they're issued, per the current security change (TRUSTED, last verified September 1, 2026). An older entry stating 24 hours still appears in the knowledge base but is marked NEEDS_VERIFICATION (UPDATE, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "upload",
+        "kind": "conflict",
+        "run": 0,
+        "question": "What is the maximum file upload size?",
+        "answer": "The maximum upload size is **5 GB per file**, per the current upload limits document (TRUSTED, last verified September 1, 2026). Note that an older entry stating 2 GB still appears in the knowledge base, but it's marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "upload",
+        "kind": "conflict",
+        "run": 1,
+        "question": "What is the maximum file upload size?",
+        "answer": "The maximum upload size is **5 GB per file**, per the current Upload limits document (TRUSTED, last verified September 1, 2026). Note that an older entry stating 2 GB still appears in the knowledge base but is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "upload",
+        "kind": "conflict",
+        "run": 2,
+        "question": "What is the maximum file upload size?",
+        "answer": "The maximum file upload size is **5 GB per file**, per the current Upload limits 2026 document (TRUSTED, last verified September 1, 2026). An older entry stating 2 GB still appears in the knowledge base but is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "retention",
+        "kind": "conflict",
+        "run": 0,
+        "question": "How long do we keep data after a customer cancels?",
+        "answer": "After a customer cancels, data is deleted after **30 days**, per the current data retention policy (TRUSTED, last verified September 1, 2026). An older entry saying data is kept for **90 days** is marked NEEDS_VERIFICATION (EXPIRED), so it may be outdated.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "retention",
+        "kind": "conflict",
+        "run": 1,
+        "question": "How long do we keep data after a customer cancels?",
+        "answer": "After a customer cancels, data is deleted after **30 days**, per the current data retention policy (TRUSTED, last verified 2026-09-01). Note that an older entry stating data is kept for 90 days is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "retention",
+        "kind": "conflict",
+        "run": 2,
+        "question": "How long do we keep data after a customer cancels?",
+        "answer": "After a customer cancels, their data is deleted after **30 days**, per the current data retention policy (TRUSTED, last verified 2026-09-01). An older entry stating data is kept for 90 days is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "trial",
+        "kind": "conflict",
+        "run": 0,
+        "question": "How long is the free trial?",
+        "answer": "The free trial lasts **21 days**, per the current free trial length document (TRUSTED, last verified 2026-09-01). An older entry stating a 7-day trial for new accounts is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "trial",
+        "kind": "conflict",
+        "run": 1,
+        "question": "How long is the free trial?",
+        "answer": "The free trial lasts **21 days**, per the current Free trial length document (TRUSTED, last verified 2026-09-01).\n\nNote: an older entry stating new accounts get a **7-day** trial is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "trial",
+        "kind": "conflict",
+        "run": 2,
+        "question": "How long is the free trial?",
+        "answer": "The free trial lasts **21 days**, per the current Free trial length document (TRUSTED, last verified 2026-09-01).\n\nNote that an older entry stating new accounts get a **7-day** trial is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "ratelimit",
+        "kind": "conflict",
+        "run": 0,
+        "question": "What is the API rate limit?",
+        "answer": "The API allows **600 requests per minute per key**, per the current API rate limits v2 document (TRUSTED, last verified 2026-09-01). An older entry stating 100 requests per minute is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "ratelimit",
+        "kind": "conflict",
+        "run": 1,
+        "question": "What is the API rate limit?",
+        "answer": "The API allows **600 requests per minute per key**, per the current API rate limits v2 document (TRUSTED, last verified 2026-09-01). Note that an older entry stating 100 requests per minute is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "ratelimit",
+        "kind": "conflict",
+        "run": 2,
+        "question": "What is the API rate limit?",
+        "answer": "The API allows **600 requests per minute per key**, per the current API rate limits v2 document (TRUSTED, last verified 2026-09-01). An older entry stating 100 requests per minute is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated and shouldn't be relied on.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "sso",
+        "kind": "stale_only",
+        "run": 0,
+        "question": "Which SSO methods do we support?",
+        "answer": "We support **SAML only** for single sign-on, per the SSO setup document in the Support collection (Security folder).\n\nNote: that document is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so this information may be outdated.",
+        "current": false,
+        "warned": true
+      },
+      {
+        "topic": "sso",
+        "kind": "stale_only",
+        "run": 1,
+        "question": "Which SSO methods do we support?",
+        "answer": "We support **SAML only** for single sign-on, per the SSO setup document in the Support collection (Security folder). Note: that document is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so this information may be outdated.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "sso",
+        "kind": "stale_only",
+        "run": 2,
+        "question": "Which SSO methods do we support?",
+        "answer": "We support **SAML only** for single sign-on, per the SSO setup document. Note that this document is marked **NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01)**, so this information may be outdated.",
+        "current": false,
+        "warned": true
+      },
+      {
+        "topic": "phone",
+        "kind": "stale_only",
+        "run": 0,
+        "question": "What is the support phone number?",
+        "answer": "The knowledge base lists the support phone number as **+1 555 0100** \u2014 but note this comes from the \"Phone support\" document, which is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so the number may be outdated.",
+        "current": false,
+        "warned": true
+      },
+      {
+        "topic": "phone",
+        "kind": "stale_only",
+        "run": 1,
+        "question": "What is the support phone number?",
+        "answer": "The support phone number listed in the knowledge base is **+1 555 0100**. Note that this comes from the \"Phone support\" document, which is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so the number may be outdated.",
+        "current": false,
+        "warned": true
+      },
+      {
+        "topic": "phone",
+        "kind": "stale_only",
+        "run": 2,
+        "question": "What is the support phone number?",
+        "answer": "The support phone number is **+1 555 0100** (from the \"Phone support\" document). Note that this document is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so the number may be outdated.",
+        "current": false,
+        "warned": true
+      },
+      {
+        "topic": "nonprofit",
+        "kind": "stale_only",
+        "run": 0,
+        "question": "Do nonprofits get a discount?",
+        "answer": "Yes \u2014 registered nonprofits get **50% off any plan**, per the Nonprofit discount entry in the Support collection (Billing folder). Note that this entry is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so the discount may be outdated.",
+        "current": false,
+        "warned": true
+      },
+      {
+        "topic": "nonprofit",
+        "kind": "stale_only",
+        "run": 1,
+        "question": "Do nonprofits get a discount?",
+        "answer": "Yes \u2014 registered nonprofits get **50% off any plan**, per the Nonprofit discount entry in the Support collection (Billing folder). Note that this entry is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so the discount may be outdated.",
+        "current": false,
+        "warned": true
+      },
+      {
+        "topic": "nonprofit",
+        "kind": "stale_only",
+        "run": 2,
+        "question": "Do nonprofits get a discount?",
+        "answer": "Yes \u2014 registered nonprofits get **50% off any plan**, per the \"Nonprofit discount\" entry in the Support collection (Billing folder). Note that this entry is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so the discount may be outdated.",
+        "current": false,
+        "warned": true
+      },
+      {
+        "topic": "region",
+        "kind": "stale_only",
+        "run": 0,
+        "question": "Where is EU customer data stored?",
+        "answer": "EU customer data is stored in **Frankfurt**, per the \"EU data region\" entry in the Support collection (Security folder). Note that this entry is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated.",
+        "current": false,
+        "warned": true
+      },
+      {
+        "topic": "region",
+        "kind": "stale_only",
+        "run": 1,
+        "question": "Where is EU customer data stored?",
+        "answer": "EU customer data is stored in **Frankfurt**, per the \"EU data region\" entry in the Support collection (Security folder). Note that this entry is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated.",
+        "current": true,
+        "warned": true
+      },
+      {
+        "topic": "region",
+        "kind": "stale_only",
+        "run": 2,
+        "question": "Where is EU customer data stored?",
+        "answer": "EU customer data is stored in **Frankfurt**, per the \"EU data region\" entry in the Support collection (Security folder). Note that this entry is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so it may be outdated.",
+        "current": true,
+        "warned": true
+      }
+    ],
+    "first_sync_seconds": 114.5
+  },
+  "timing": {
+    "first sync": 118.0,
+    "re-sync, nothing changed": 5.5,
+    "re-sync, 1 card edited": 37.5
+  },
+  "audit": "The cards needing verification are: Phone support (Support), Free trial (Billing), Support hours (Support), Refund policy (Billing), Data retention (Account), Upload limits (Product), Nonprofit discount (Billing), API rate limits (Developers), EU data region (Security), SSO setup (Security), and Pro plan pricing (Billing); all are marked NEEDS_VERIFICATION (EXPIRED), so this information may be outdated."
+}

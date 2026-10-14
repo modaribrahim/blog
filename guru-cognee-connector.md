@@ -19,6 +19,34 @@ A customer asks: "Can I get a refund after 30 days?"
 
 Same bot, same data, but yeah, it just knows which answers to trust.
 
+## I tested it
+
+I didn't want to just claim it, so I ran an experiment.
+
+- 20 sample Guru cards for a made-up company. 8 topics have an old card (wrong, needs verification) and a new one (right, trusted). 4 topics only have an old card.
+- Loaded them into Cognee twice through the connector: once with the trust labels dropped, once with them kept.
+- Asked the same 12 questions, 3 times each. Same bot, same prompt. Model: DeepSeek V4.1 Flash.
+
+![results](accuracy.png)
+
+When old and new cards disagree, the bot mostly gets it right anyway (92% → 100%).
+
+The big one: when **only an old card exists**, the bot without labels warned **0 times out of 12**. It just repeated old info as fact. With labels: **12 out of 12**.
+
+Real answers to "Do nonprofits get a discount?":
+
+> **Labels dropped:** Yes — registered nonprofits get 50% off any plan.
+
+> **Labels kept:** Yes — registered nonprofits get 50% off any plan. Note that this entry is marked NEEDS_VERIFICATION (EXPIRED, last verified 2024-03-01), so the discount may be outdated.
+
+Bonus: I asked "list every card that needs verification". It found 11 of the 12. That's a free cleanup list for the team.
+
+Syncing again is cheap too, because only changed cards get processed:
+
+![re-sync](resync.png)
+
+The whole experiment cost about $0.30 in API calls. Code and raw results: [guru-experiment](https://github.com/modaribrahim/blog/tree/main/guru-experiment).
+
 ## What the connector does
 
 I will mention here and try to be brief:
@@ -52,7 +80,7 @@ One folder? `guru_source(folder_id="...")`.
 
 ## Testing
 
-I ran 49 tests, on a fresh Ubuntu 24.04 VM with Python 3.11. The Guru API is mocked, so anyone can run them without an account...
+The connector has 49 tests. I ran them on a fresh Ubuntu 24.04 VM with Python 3.11. The Guru API is mocked, so anyone can run them without an account...
 
 ## Links
 
